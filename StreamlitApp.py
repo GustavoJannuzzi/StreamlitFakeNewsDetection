@@ -35,8 +35,8 @@ from sklearn.feature_extraction.text import TfidfTransformer, TfidfVectorizer
 #------------------------
 
 #Read data
-fake_news = pd.read_csv('C:/Users/gustavo.j.siebel/OneDrive - Accenture/Documents/Projetos/Fake News Detector/Fake.csv')
-true_news = pd.read_csv('C:/Users/gustavo.j.siebel/OneDrive - Accenture/Documents/Projetos/Fake News Detector/True.csv')
+fake_news = pd.read_csv('https://raw.githubusercontent.com/GustavoJannuzzi/StreamlitFakeNewsDetection/master/Fake.csv')
+true_news = pd.read_csv('https://raw.githubusercontent.com/GustavoJannuzzi/StreamlitFakeNewsDetection/master/True.csv')
 fake_news['target'] = 0
 true_news['target'] = 1
 
